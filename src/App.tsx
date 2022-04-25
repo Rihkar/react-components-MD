@@ -88,7 +88,7 @@ const App = () => (
     </div>
 
     <div className="bigbox-container">
-      {vegetables.ma((element) => (
+      {vegetables.map((element) => (
         element.available && (
           <div className="card">
             <div className="cardBorder" style={{ backgroundColor: element.backgroundColor }}>
