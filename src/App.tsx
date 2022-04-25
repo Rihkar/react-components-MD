@@ -62,7 +62,7 @@ const App = () => (
       {tasks.map((element) => (
         !element.done ? (
           <Smallboxes text={element.text} />
-        ) : (<div className="display-none"><Smallboxes text={element.text} /></div>)
+        ) : null
 
       ))}
     </div>
